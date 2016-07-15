@@ -10,7 +10,7 @@ defmodule UiFaces.Face do
   """
 
   def random do
-    API.get("random", [timeout: UiFaces.config(:timeout)]).body
+    API.get("random", [timeout: UiFaces.config(:timeout)])
   end
 
   @doc """
@@ -21,6 +21,6 @@ defmodule UiFaces.Face do
       iex> UiFaces.Face.user("calebogden")
   """
   def user(username) do
-    API.get("user/#{username}", [timeout: UiFaces.config(:timeout)]).body
+    API.get("user/#{username}", [timeout: UiFaces.config(:timeout)])
   end
 end
