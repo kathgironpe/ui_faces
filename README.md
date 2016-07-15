@@ -1,9 +1,9 @@
-# UiFaces
+# UIFaces
 
 ## Features
 
 - [x] Return a random authorized user
-- [ ] Returns an authorized user
+- [x] Returns an authorized user
 
 ## Installation
 
