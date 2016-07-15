@@ -44,6 +44,7 @@ defmodule UiFaces.Mixfile do
 
   defp package do
     [
+      name: :ui_faces,
       maintainers: ["Katherine Pe"],
       licenses: ["MIT"],
       links: %{
