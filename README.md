@@ -13,7 +13,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
     ```elixir
     def deps do
-      [{:ui_faces, "~> 0.1.4"}]
+      [{:ui_faces, "~> 0.1.5"}]
     end
     ```
 
