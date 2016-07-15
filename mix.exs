@@ -36,6 +36,12 @@ defmodule UiFaces.Mixfile do
     ]
   end
 
+  defp description do
+    """
+    UIFaces API client for Elixir applications.
+    """
+  end
+
   defp package do
     [
       maintainers: ["Katherine Pe"],
