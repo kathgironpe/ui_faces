@@ -4,18 +4,23 @@ defmodule UiFaces.Face do
   @doc """
   Returns a random authorized user
 
-  UiFaces.Face.random
+  ## Examples
+
+      iex> UiFaces.Face.random
   """
+
   def random do
-    API.get("random", timeout: UiFaces.config(:timeout)).body
+    API.get("random", [timeout: UiFaces.config(:timeout)]).body
   end
 
   @doc """
   Returns an authorized user
 
-  UiFaces.Face.user("calebogden")
+  ## Examples
+
+      iex> UiFaces.Face.user("calebogden")
   """
   def user(username) do
-    API.get("user/#{username}", timeout: UiFaces.config(:timeout)).body
+    API.get("user/#{username}", [timeout: UiFaces.config(:timeout)]).body
   end
 end

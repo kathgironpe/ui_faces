@@ -1,3 +1,3 @@
 use Mix.Config
 
-config :ui_faces, timeout: 20_000
+config :ui_faces, timeout: 30_000
