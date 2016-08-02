@@ -25,3 +25,6 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     end
     ```
 
+## Related Packages
+
+* [Random User](https://github.com/katgironpe/random_user) - Useful if you want more than images and make sure female names have female faces.
