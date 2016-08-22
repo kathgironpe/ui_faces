@@ -6,7 +6,7 @@ defmodule UiFaces.Face do
 
   ## Examples
 
-      iex> UiFaces.Face.random
+      UiFaces.Face.random
   """
 
   def random do

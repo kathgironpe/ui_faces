@@ -32,8 +32,12 @@ defmodule UiFaces.Mixfile do
     [
       {:httpotion, "~> 3.0.0"},
       {:poison, ">= 2.2.0"},
-      {:mock, "~> 0.1.3", only: :test},
-      {:ex_doc, ">= 0.0.0", only: :dev}
+      {:credo, "~> 0.4", only: [:dev, :test]},
+      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:excoveralls, "~> 0.4", only: :test},
+      {:exvcr, "~> 0.6", only: :test},
+      {:inch_ex, "~> 0.5", only: :docs},
+      {:meck, "~> 0.8.2", only: [:dev, :test]}
     ]
   end
 
