@@ -18,7 +18,7 @@ defmodule UiFaces.Face do
 
   ## Examples
 
-      iex> UiFaces.Face.user("calebogden")
+      UiFaces.Face.user("calebogden")
   """
   def user(username) do
     API.get("user/#{username}", [timeout: UiFaces.config(:timeout)])
