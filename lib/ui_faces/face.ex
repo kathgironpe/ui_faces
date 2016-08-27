@@ -1,6 +1,20 @@
 defmodule UiFaces.Face do
   alias UiFaces.API
 
+  @moduledoc """
+     Get random authorized user and an authorized user by Twitter username.
+
+  ## Examples
+
+      # Returns a random authorized user
+
+      UiFaces.Face.random
+
+      # Returns an authorized user
+      UiFaces.Face.user("calebogden")
+
+  """
+
   @doc """
   Returns a random authorized user
 
