@@ -1,4 +1,4 @@
-# UIFaces [![Build Status](https://travis-ci.org/katgironpe/ui_faces.svg?branch=master)](https://travis-ci.org/katgironpe/ui_faces) [![Coverage Status](https://coveralls.io/repos/github/katgironpe/ui_faces/badge.svg?branch=master)](https://coveralls.io/github/katgironpe/ui_faces?branch=master) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/katgironpe/ui_faces.svg)](https://beta.hexfaktor.org/github/katgironpe/ui_faces
+# UIFaces [![Build Status](https://travis-ci.org/katgironpe/ui_faces.svg?branch=master)](https://travis-ci.org/katgironpe/ui_faces) [![Coverage Status](https://coveralls.io/repos/github/katgironpe/ui_faces/badge.svg?branch=master)](https://coveralls.io/github/katgironpe/ui_faces?branch=master) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/katgironpe/ui_faces.svg)](https://beta.hexfaktor.org/github/katgironpe/ui_faces)
 
 ## Features
 
