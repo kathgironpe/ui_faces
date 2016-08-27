@@ -42,4 +42,4 @@ UiFaces.Face.user("calebogden")
 
 ## Related Projects
 
-* [Random User](https://github.com/katgironpe/random_user) - Useful if you want more than images and make sure female names have female faces.
+* [Random User](https://github.com/katgironpe/random_user) - Useful if you want more than a username and images. You can also make sure the random data has female names have female faces.
