@@ -7,7 +7,7 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as follows:
+The package is [available in Hex](https://hexdocs.pm/ui_faces/0.1.6/UiFaces.Face.html) can be installed as follows:
 
   1. Add `ui_faces` to your list of dependencies in `mix.exs`:
 
