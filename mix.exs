@@ -9,25 +9,18 @@ defmodule UiFaces.Mixfile do
      start_permanent: Mix.env == :prod,
      description: description(),
      package: package(),
-     deps: deps()]
+     deps: deps(),
+     test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: cli_env_for(:test, [
+       "coveralls", "coveralls.detail", "coveralls.post",
+       "vcr", "vcr.delete", "vcr.check", "vcr.show"
+     ])]
   end
 
-  # Configuration for the OTP application
-  #
-  # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger, :httpotion, :poison]]
   end
 
-  # Dependencies can be Hex packages:
-  #
-  #   {:mydep, "~> 0.3.0"}
-  #
-  # Or git/path repositories:
-  #
-  #   {:mydep, git: "https://github.com/elixir-lang/mydep.git", tag: "0.1.0"}
-  #
-  # Type "mix help deps" for more examples and options
   defp deps do
     [
       {:httpotion, "~> 3.0.0"},
@@ -45,6 +38,10 @@ defmodule UiFaces.Mixfile do
     """
     UIFaces API client for Elixir applications.
     """
+  end
+
+  defp cli_env_for(env, tasks) do
+    Enum.reduce(tasks, [], fn(key, acc) -> Keyword.put(acc, :"#{key}", env) end)
   end
 
   defp package do

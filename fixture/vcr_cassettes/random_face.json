@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://uifaces.com/api/v1/random"
+    },
+    "response": {
+      "body": "{\"username\":\"hennrodriguez\",\"image_urls\":{\"epic\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/hennrodriguez\\/128.jpg\",\"bigger\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/hennrodriguez\\/73.jpg\",\"normal\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/hennrodriguez\\/48.jpg\",\"mini\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/hennrodriguez\\/24.jpg\"}}",
+      "headers": {
+        "Date": "Sat, 27 Aug 2016 07:08:26 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "384",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d8329e17a6b4dcf9f388ca191d30c014c1472281706; expires=Sun, 27-Aug-17 07:08:26 GMT; path=/; domain=.uifaces.com; HttpOnly",
+        "X-Powered-By": "PHP/5.3.29",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2d8db138bfa113dd-LAX"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

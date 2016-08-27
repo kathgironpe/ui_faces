@@ -1,6 +1,10 @@
 defmodule UiFaces.API do
   use HTTPotion.Base
 
+  @moduledoc """
+  API is an HTTPotion wrapper.
+  """
+
   def process_url(url) do
     base_url <> url
   end

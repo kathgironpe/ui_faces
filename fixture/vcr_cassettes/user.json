@@ -1,0 +1,28 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://uifaces.com/api/v1/user/calebogden"
+    },
+    "response": {
+      "body": "{\"username\":\"calebogden\",\"image_urls\":{\"epic\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/calebogden\\/128.jpg\",\"bigger\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/calebogden\\/73.jpg\",\"normal\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/calebogden\\/48.jpg\",\"mini\":\"https:\\/\\/s3.amazonaws.com\\/uifaces\\/faces\\/twitter\\/calebogden\\/24.jpg\"}}",
+      "headers": {
+        "Date": "Sat, 27 Aug 2016 07:19:42 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "369",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d6c7602c3e9b90dc6349fcda1d68d2aad1472282382; expires=Sun, 27-Aug-17 07:19:42 GMT; path=/; domain=.uifaces.com; HttpOnly",
+        "X-Powered-By": "PHP/5.3.29",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2d8dc1ba7367141f-LAX"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
