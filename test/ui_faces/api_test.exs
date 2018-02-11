@@ -3,7 +3,7 @@ defmodule UiFaces.APITest do
 
   describe "process_url" do
     test "returns a url" do
-      url = "random" |> UiFaces.API.process_url
+      url = UiFaces.API.process_url("random")
       assert url == "http://uifaces.com/api/v1/random"
     end
   end

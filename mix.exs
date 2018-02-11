@@ -3,7 +3,7 @@ defmodule UiFaces.Mixfile do
 
   def project do
     [app: :ui_faces,
-     version: "0.1.7",
+     version: "0.1.8",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -24,12 +24,12 @@ defmodule UiFaces.Mixfile do
   defp deps do
     [
       {:httpotion, "~> 3.0.0"},
-      {:poison, ">= 2.2.0"},
-      {:credo, "~> 0.4", only: [:dev, :test]},
-      {:ex_doc, ">= 0.0.0", only: :dev},
-      {:excoveralls, "~> 0.4", only: :test},
-      {:exvcr, "~> 0.6", only: :test},
-      {:inch_ex, "~> 0.5", only: :docs},
+      {:poison, ">= 3.1.0"},
+      {:credo, "~> 0.8.0", only: [:dev, :test]},
+      {:ex_doc, ">= 0.18.0", only: :dev},
+      {:excoveralls, "~> 0.8.0", only: :test},
+      {:exvcr, "~> 0.10.0", only: :test},
+      {:inch_ex, "~> 0.5.6", only: :docs},
       {:meck, "~> 0.8.2", only: [:dev, :test]}
     ]
   end
