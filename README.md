@@ -11,19 +11,19 @@ The package is [available in Hex](https://hexdocs.pm/ui_faces/0.1.7/UiFaces.Face
 
   1. Add `ui_faces` to your list of dependencies in `mix.exs`:
 
-    ```elixir
-    def deps do
-      [{:ui_faces, "~> 0.1.7"}]
-    end
-    ```
+```elixir
+def deps do
+  [{:ui_faces, "~> 0.1.7"}]
+end
+```
 
   2. Ensure `ui_faces` is started before your application:
 
-    ```elixir
-    def application do
-      [applications: [:ui_faces]]
-    end
-    ```
+```elixir
+def application do
+  [applications: [:ui_faces]]
+end
+```
 
 ## Usage
 
